@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jossa10/render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jossa10/render/issues"
+  },
+  "homepage": "https://github.com/jossa10/render#readme",
   "description": ""
 }
