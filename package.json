@@ -1,21 +1,19 @@
 {
-  "name": "josa",
+  "name": "puerta-inteligente-api",
   "version": "1.0.0",
+  "description": "API Puente para sistema de puerta inteligente con ESP32",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jossa10/render.git"
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mqtt": "^5.0.5"
   },
-  "bugs": {
-    "url": "https://github.com/jossa10/render/issues"
-  },
-  "homepage": "https://github.com/jossa10/render#readme",
-  "description": ""
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
